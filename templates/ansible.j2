@@ -1,0 +1,9 @@
+# This file is managed by Ansible, all changes will be lost
+
+{% set template_parts = [
+  'example1',
+  'example2' ] %}
+{% for part in template_parts %}
+{% include part + '.j2' %}
+{% endfor %}
+

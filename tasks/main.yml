@@ -1,0 +1,7 @@
+---
+
+- name: Generate the file from templates
+  template:
+    src: 'ansible.j2'
+    dest: '/tmp/output-file'
+
